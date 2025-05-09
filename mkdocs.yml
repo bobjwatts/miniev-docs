@@ -1,0 +1,10 @@
+site_name: Mini EV Build
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Motor & Drivetrain: motor.md
+  - Battery Pack: battery.md
+  - Wiring & CAN Bus: wiring.md
+  - Cooling System: cooling.md
+  - Chassis & Mounts: chassis.md
