@@ -18,4 +18,4 @@ nav:
   - Media Gallery: media_gallery.md
   - Resources & Links: resources_links.md
 
-theme: mkdocs-material
+theme: material
