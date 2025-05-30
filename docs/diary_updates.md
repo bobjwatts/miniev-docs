@@ -50,7 +50,7 @@ Set up MkDocs documentation structure and began populating planning and build st
 - Decisions or deviations from the plan
 
 **Photos:**  
-- ![Before Disassembly](../media/miniandmotor.png)  
+- ![Before Disassembly](media/miniandmotor.png)  
 - ![Engine Bay](../media/day_x_engine.jpg)
 
 **Next Steps:**  
