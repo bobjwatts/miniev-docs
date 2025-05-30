@@ -14,8 +14,8 @@ nav:
       - "Stage 8: Climate Control & Interior Refinement": build/stage8_climate_interior.md
   - Certification & Compliance: certification.md
   - Build Diary & Updates: diary_updates.md
-  - Troubleshooting & Insights: troubleshooting_insights.md
-  - Media Gallery: media_gallery.md
+ # - Troubleshooting & Insights: troubleshooting_insights.md
+ # - Media Gallery: media_gallery.md
   - Resources & Links: resources_links.md
 
 theme: material
