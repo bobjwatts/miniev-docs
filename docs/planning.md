@@ -10,6 +10,7 @@ This page outlines the key planning decisions and preparations necessary for con
 
 - Compact and lightweight chassis suitable for EV conversion.
 - Sport-oriented suspension and responsive handling characteristics.
+- S badge has better disk brakes and additional sway bars compared to standard Mini Cooper
 - Robust aftermarket support and availability of OEM and custom parts.
 - Well-documented electrical system, simplifying integration.
 - Active enthusiast community offering resources and experience.
@@ -37,12 +38,14 @@ This page outlines the key planning decisions and preparations necessary for con
 - Electric motor, inverter, and gearbox assembly.
 - Battery pack modules and battery management components.
 - High-voltage charging system, DC-DC converter, and associated cabling.
+- Drive by wire pedal
+- Gear selector
 - Ancillary components (cooling system components, electronic controls).
 
 **Cost Estimation and Procurement Plan:**
 
 - Estimated budget for Leaf components: AU$7,000–10,000.
-- Preferred sourcing strategy through salvage yards, insurance auctions, and online EV communities.
+- Preferred sourcing strategy through salvage yards and online EV communities.
 
 ---
 
@@ -51,7 +54,7 @@ This page outlines the key planning decisions and preparations necessary for con
 **EV-Specific Components Needed:**
 
 - Battery Management System (BMS) — Orion BMS or similar.
-- Resolve EV controller or OpenInverter system.
+- OpenInverter system.
 - CAN bus spoofing tools (ESP32-based setup for integration).
 
 **Workshop and Safety Tools:**
