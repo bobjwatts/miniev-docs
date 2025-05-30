@@ -74,6 +74,9 @@ What I Learned:
 - CP2102-based ESP32 boards do not reliably support 1M baud, causing GVRET Serial to become garbled and fail
 - ESP32RET and SavvyCAN expect a clean GVRET binary stream — any noise (e.g., ELM emulator or debug prints) causes the handshake to fail
 
+**ESP & MCP2515 :**  
+- ![ESP & MCP2515](media/espcan.jpg) 
+
 **Next Steps:**
 - I’ve ordered a few ESP32 boards with CH340 USB chips, which support 1,000,000 baud for GVRET serial communication with SavvyCAN. Once they arrive, I’ll resume testing with the precombiled ESPRET bin.
 ---
