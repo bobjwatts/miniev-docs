@@ -7,18 +7,15 @@ A curated list of documentation, tools, suppliers, and community references used
 ## 📄 Technical References
 
 - [OpenInverter Forum](https://openinverter.org/)
-- [Resolve EV Controller](https://resolve-ev.com/)
-- [Orion BMS Documentation](https://www.orionbms.com/)
-- [EV Alliance High Voltage Safety Course](https://evalliance.com.au)
+- [Orion BMS](https://www.orionbms.com/)
+- [EV Alliance](https://evalliance.com.au)
 
 ---
 
 ## 🔧 Tools & Parts Suppliers
 
 - [EV Works Australia](https://www.evworks.com.au)
-- [Zeva (legacy resources)](http://www.zeva.com.au/)
-- [Nissan Leaf Parts (eBay)](https://www.ebay.com.au)
-- [Jaycar Electronics](https://www.jaycar.com.au/)
+- [Orion BMS](https://www.orionbms.com/)
 
 ---
 
@@ -26,7 +23,6 @@ A curated list of documentation, tools, suppliers, and community references used
 
 - [DIY Electric Car Forums](https://www.diyelectriccar.com/)
 - [EV Album - Mini Conversions](https://evalbum.com/type/MINI)
-- [YouTube: Rich Rebuilds](https://www.youtube.com/c/RichRebuilds)
 - [Autosport Labs CAN Database](https://wiki.autosportlabs.com/CAN_Bus_database)
 
 ---

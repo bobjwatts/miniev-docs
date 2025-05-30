@@ -84,6 +84,7 @@ What I Learned:
 The Mini truly is a joy to drive. Its cornering capabilities are fantastic, making every drive enjoyable. Even if I never get around to completing the EV conversion, I'll still be happy with the car. However, I'm excited about the potential improvements the conversion will bring, particularly the instant torque. Based on current projections using the Mini specs combined with the Leaf motor and battery setup, the car might achieve 0–100 km/h in just 4.2 seconds!
 
 So far, I've tackled several small repairs and improvements:
+
 - Fluid leak: Initially alarming, the fluid under the car turned out to be power steering fluid. Thankfully, it was an easy fix—one of the hoses just wasn't properly tightened. Considering I'll retain the power steering, I'll likely replace the old hardened hoses for peace of mind.
 - Stereo issue: The audio system was annoyingly only playing through one side of the car. I learned how to remove the stereo (a bit tricky!) and discovered some bad wiring behind the aftermarket Pioneer unit. I resolved the wiring issue but will probably upgrade to a double DIN Android head unit soon.
 - Door latch: The driver's side door wasn’t closing properly, but a quick adjustment of the latch mechanism sorted that out.
