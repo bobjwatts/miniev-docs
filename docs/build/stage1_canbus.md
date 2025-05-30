@@ -59,23 +59,23 @@ Before commencing, ensure all personal and vehicle safety precautions are met:
 
 ## Procedure: CAN Bus Logging
 
-1. **Identify CAN Bus Access Point**
+- **Identify CAN Bus Access Point**
    - Locate the OBD-II port under the dash, typically accessible in the driver’s footwell.
    - Verify CAN bus wiring from the Mini’s electrical schematics.
 
-2. **Set Up the Logging Hardware**
-   - Connect the ESP32 and CAN interface (MCP2515) to the Mini Cooper via OBD-II breakout cable.
-   - Ensure connections are secure and properly insulated.
+- **Set Up the Logging Hardware**
+  - Connect the ESP32 and CAN interface (MCP2515) to the Mini Cooper via OBD-II breakout cable.
+  - Ensure connections are secure and properly insulated.
 
-3. **Configure Software**
+- **Configure Software**
    - Launch CAN logging software (e.g., SavvyCAN).
    - Set the correct baud rate (commonly 500 kbps for Mini R53).
 
-4. **Begin Logging**
+- **Begin Logging**
    - Start the vehicle and systematically activate all controls (lights, indicators, brake, accelerator, steering, etc.).
    - Record CAN traffic with timestamps for easier signal identification.
 
-5. **Signal Identification**
+- **Signal Identification**
    - Analyze logged data to correlate recorded CAN IDs with specific vehicle functions.
    - Create a table documenting identified signals, CAN IDs, and expected data formats.
 
