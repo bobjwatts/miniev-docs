@@ -36,17 +36,12 @@ After weeks of back-and-forth with the wrecker, I finally received the written q
 
 The total came to $5,500 AUD, which includes:
 
-    The EM57 electric motor
-
-    Inverter
-
-    Single-speed gearbox
-
-    Driveshafts
-
-    Charger
-
-    And most importantly, the Gen 2 Leaf battery pack
+- The EM57 electric motor
+- Inverter
+- Single-speed gearbox
+- Driveshafts
+- Charger
+- And most importantly, the Gen 2 Leaf battery pack
 
 This bundle covers nearly everything I need for the heart of the conversion. It wasn’t itemised, but the description matched what we discussed — and at this price, I’m not going to make a fuss over whether the gear selector or pedal is included. I can pick up those extras separately if needed.
 
@@ -74,8 +69,8 @@ What I Learned:
 - CP2102-based ESP32 boards do not reliably support 1M baud, causing GVRET Serial to become garbled and fail
 - ESP32RET and SavvyCAN expect a clean GVRET binary stream — any noise (e.g., ELM emulator or debug prints) causes the handshake to fail
 
-**ESP & MCP2515 :**  
-- ![ESP & MCP2515](media/espcan.jpg) 
+ 
+![ESP & MCP2515](media/espcan.jpg) 
 
 **Next Steps:**
 - I’ve ordered a few ESP32 boards with CH340 USB chips, which support 1,000,000 baud for GVRET serial communication with SavvyCAN. Once they arrive, I’ll resume testing with the precombiled ESPRET bin.
