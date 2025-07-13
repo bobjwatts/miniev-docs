@@ -2,7 +2,7 @@
 
 ![Mini and Leaf](media/miniandmotor.png)  
 
-Test Welcome to the documentation of the 2006 Mini Cooper S electric vehicle project, utilizing components from a Gen 2 Nissan Leaf. This site serves as my primary guide during the conversion, providing structured procedures, references, and safety guidelines.
+Welcome to the documentation of the 2006 Mini Cooper S electric vehicle project, utilizing components from a Gen 2 Nissan Leaf. This site serves as my primary guide during the conversion, providing structured procedures, references, and safety guidelines.
 
 ## Project Overview
 
