@@ -1,5 +1,6 @@
 site_name: Mini EV Conversion
-
+# Publish directly into your web root
+site_dir: /var/www/miniev
 nav:
   - Home: index.md
   - Planning Stage: planning.md
