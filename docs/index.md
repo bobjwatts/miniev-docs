@@ -12,24 +12,8 @@
 - **Planned Budget:** Approximately $12,000 AUD
 - **Projected Timeline:** Approximately 12 months
 
-## Project Stages
 
-The conversion project is structured in sequential stages for clarity, safety, and compliance:
-
-2. **Nissan Leaf Bench Testing**
-3. **Base Vehicle Disassembly and Preparation**
-4. **Mechanical Integration (Motor, Gearbox, Drivetrain)**
-5. **Battery Installation and Safety Integration**
-6. **Electrical System Integration**
-8. **Climate Control and Interior Systems Refinement**
-9. **ACC Certification and Compliance Verification**
-
-
-# Build Progress Updates
-
----
-
-## 🔧 Entries
+## Build Progress Updates
 
 ---
 
