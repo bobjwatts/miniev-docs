@@ -35,8 +35,9 @@ Today was a good day, hired a ute and trailer to pickup all of the parts from th
 
 ---
 
-📅 29-05-2025  
+ 
 ## Quick Update – Wrecker Came Through.
+📅 29-05-2025 
 
 Just got off the phone with the guy I have been dealing with, and it sounds like he's going to include the extra parts I asked about in the $5,500 bundle price.
 
@@ -56,8 +57,9 @@ Happy with the outcome, this takes a lot of pressure off the parts hunt. Payment
 
 ---
 
-#### 📅 28-05-2025  
+
 ## Locking In the Drivetrain – Invoice Received and Paid
+📅 28-05-2025  
 
 After weeks of back-and-forth with the wrecker, I finally received the written quote for the Nissan Leaf ZE1 parts I need — and it was better than expected.
 
@@ -77,10 +79,10 @@ This bundle covers nearly everything I need for the heart of the conversion. It 
 
 ---
 
-#### 📅 17-05-2025  
+  
 ## Logging CAN bus data from Mini
+📅 17-05-2025
 
-**Summary:** 
 I spent Friday night and Saturday morning attempting to get setup to log the can data from the Mini. I set out to use an ESP32 dev board with an MCP2515 CAN module to interface with SavvyCAN via the GVRET protocol.
 
 What I Tried:
@@ -104,10 +106,10 @@ What I Learned:
 ---
 
 
-#### 📅 03-05-2025  
+ 
 ## Mini driving and light repairs  
+📅 03-05-2025 
 
-**Summary:**  
 The Mini truly is a joy to drive. Its cornering capabilities are fantastic. Even if I never get around to completing the EV conversion, I'll still be happy with the car. However, I'm looking forward to the instant torque. Based on current projections using the Mini specs combined with the Leaf motor and battery setup, the car might achieve 0–100 km/h in ~5ish seconds!
 
 So far, I've tackled several small repairs and improvements:
@@ -123,10 +125,9 @@ So far, I've tackled several small repairs and improvements:
 
 ---
 
-#### 📅 26-04-2025  
 ## Finding Nissan EV Parts from a Wrecker
+📅 26-04-2025 
 
-**Summary:** 
 The next step is sourcing the Nissan Leaf components. I have found several wrecked Nissan Leafs online at local wreckers. I called a wrecker specializing in Nissan vehicles—they had three Nissan Leaf Gen 2s listed on their website.
 
 The first phone conversation was encouraging. The guy I spoke with was incredibly friendly and knowledgeable, having previously sold a few DIY EV kits. To my surprise, the quoted price was very reasonable—AUD 5,500 for a complete Gen 2 drivetrain and battery.
@@ -140,10 +141,10 @@ Feeling optimistic.
 
 ---
 
-#### 📅 20-04-2025  
-## First Update! EV Conversion Origin Story and Vehicle Acquisition  
 
-**Summary:**  
+## First Update! EV Conversion Origin Story and Vehicle Acquisition  
+📅 20-04-2025 
+
 I've been loving watching classic EV conversions on YouTube for a few years now, often thinking, "Maybe when I retire." This hesitation was mostly due to my perceived high cost of buying a classic car as a donor and acquiring EV components—options seemed limited to expensive Tesla setups or Hyper 9 motors.
 
 Then one day, a video of an EV conversion using a Nissan Leaf appeared in my feed. I'd never seriously considered the Leaf before, as I found its design pretty uninspiring, and I'd assumed its EV components were low-end. However, watching the video, I saw just how straightforward the conversion process was, particularly with the Resolve EV controller that appeared quite plug-and-play. I started looking into them, discovering they weren't nearly as bad as I'd expected.
