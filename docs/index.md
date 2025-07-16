@@ -14,7 +14,7 @@
 
 ---
 
-#### 📅 07-06-2025  
+📅 07-06-2025  
 ## A Day at the Wreckers.
 
 Today was a good day, hired a ute and trailer to pickup all of the parts from the wreckers.
@@ -34,7 +34,7 @@ Today was a good day, hired a ute and trailer to pickup all of the parts from th
 
 ---
 
-#### 📅 29-05-2025  
+📅 29-05-2025  
 ## Quick Update – Wrecker Came Through.
 
 Just got off the phone with the guy I have been dealing with, and it sounds like he's going to include the extra parts I asked about in the $5,500 bundle price.
