@@ -12,7 +12,24 @@
 - **Planned Budget:** Approximately $12,000 AUD
 - **Projected Timeline:** Approximately 12 months
 
+---
 
+#### 📅 07-06-2025  
+## A Day at the Wreckers.
+
+Today was a good day, hired a ute and trailer to pickup all of the parts from the wreckers.
+
+![ESP & MCP2515](media/wreckers_01.png) 
+![ESP & MCP2515](media/wreckers_02.png) 
+![ESP & MCP2515](media/wreckers_03.png) 
+![ESP & MCP2515](media/wreckers_04.png) 
+![ESP & MCP2515](media/wreckers_05.png) 
+![ESP & MCP2515](media/wreckers_06.png) 
+
+
+
+**Next Steps:**
+- More planning, start designing the wiring diagram
 
 
 ---
