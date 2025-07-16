@@ -17,7 +17,7 @@
 
 ---
 
-### 📅 29-05-2025  
+#### 📅 29-05-2025  
 ## Quick Update – Wrecker Came Through.
 
 Just got off the phone with the guy I have been dealing with, and it sounds like he's going to include the extra parts I asked about in the $5,500 bundle price.
@@ -38,7 +38,7 @@ Happy with the outcome, this takes a lot of pressure off the parts hunt. Payment
 
 ---
 
-### 📅 28-05-2025  
+#### 📅 28-05-2025  
 ## Locking In the Drivetrain – Invoice Received and Paid
 
 After weeks of back-and-forth with the wrecker, I finally received the written quote for the Nissan Leaf ZE1 parts I need — and it was better than expected.
@@ -59,7 +59,7 @@ This bundle covers nearly everything I need for the heart of the conversion. It 
 
 ---
 
-### 📅 17-05-2025  
+#### 📅 17-05-2025  
 ## Logging CAN bus data from Mini
 
 **Summary:** 
@@ -86,7 +86,7 @@ What I Learned:
 ---
 
 
-### 📅 03-05-2025  
+#### 📅 03-05-2025  
 ## Mini driving and light repairs  
 
 **Summary:**  
@@ -105,7 +105,7 @@ So far, I've tackled several small repairs and improvements:
 
 ---
 
-### 📅 26-04-2025  
+#### 📅 26-04-2025  
 ## Finding Nissan EV Parts from a Wrecker
 
 **Summary:** 
@@ -122,7 +122,7 @@ Feeling optimistic.
 
 ---
 
-### 📅 20-04-2025  
+#### 📅 20-04-2025  
 ## First Update! EV Conversion Origin Story and Vehicle Acquisition  
 
 **Summary:**  
