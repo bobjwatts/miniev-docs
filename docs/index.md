@@ -14,8 +14,9 @@
 
 ---
 
-📅 07-06-2025  
+  
 ## A Day at the Wreckers.
+📅 07-06-2025
 
 Today was a good day, hired a ute and trailer to pickup all of the parts from the wreckers.
 
