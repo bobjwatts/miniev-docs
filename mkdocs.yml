@@ -3,20 +3,20 @@ site_name: Mini EV Conversion
 site_dir: /var/www/miniev
 nav:
   - Home: index.md
-  - Planning Stage: planning.md
-  - Build Stages:
-      - "Stage 1: Log Mini CAN Bus": build/stage1_canbus.md
-      - "Stage 2: Nissan Leaf Bench Setup": build/stage2_leaf_bench.md
-      - "Stage 3: Mini Cooper Disassembly": build/stage3_disassembly.md
-      - "Stage 4: Mechanical Integration": build/stage4_mechanical.md
-      - "Stage 5: Battery Pack Installation": build/stage5_battery.md
-      - "Stage 6: Electrical System Integration": build/stage6_electrical.md
-      - "Stage 7: CAN Bus Integration & Spoofing": build/stage7_can_spoofing.md
-      - "Stage 8: Climate Control & Interior Refinement": build/stage8_climate_interior.md
-  - Certification & Compliance: certification.md
-  - Build Diary & Updates: diary_updates.md
+  - Project Details: project-details.md
+  #- Build Stages:
+  #    - "Stage 1: Log Mini CAN Bus": build/stage1_canbus.md
+  #    - "Stage 2: Nissan Leaf Bench Setup": build/stage2_leaf_bench.md
+  #    - "Stage 3: Mini Cooper Disassembly": build/stage3_disassembly.md
+  #    - "Stage 4: Mechanical Integration": build/stage4_mechanical.md
+  #    - "Stage 5: Battery Pack Installation": build/stage5_battery.md
+  #    - "Stage 6: Electrical System Integration": build/stage6_electrical.md
+  #    - "Stage 7: CAN Bus Integration & Spoofing": build/stage7_can_spoofing.md
+  #    - "Stage 8: Climate Control & Interior Refinement": build/stage8_climate_interior.md
+ # - Certification & Compliance: certification.md
+ # - Build Diary & Updates: diary_updates.md
  # - Troubleshooting & Insights: troubleshooting_insights.md
  # - Media Gallery: media_gallery.md
-  - Resources & Links: resources_links.md
+ # - Resources & Links: resources_links.md
 
 theme: material
