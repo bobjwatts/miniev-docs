@@ -40,6 +40,9 @@ Sometimes progress comes from the simplest solutions. To keep the gearbox happy 
 
 Filament: $0.50 Peace of mind: priceless.
 
+![nissan-leaf-EM57-gearbox-dummy-stub](media/nissan-leaf-EM57-gearbox-dummy-stub-3.png)
+![nissan-leaf-EM57-gearbox-dummy-stub](media/nissan-leaf-EM57-gearbox-dummy-stub-3D.png)
+
 ---
 
 ## First Spin.
