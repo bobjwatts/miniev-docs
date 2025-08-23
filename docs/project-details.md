@@ -2,9 +2,9 @@
 
 **Base Vehicle:** 
 - **2006 Mini Cooper S (R53)**
-- Odometer - 180,000 
-- Last road worthy 04/2025
-- Registration ended 08/2025   
+  - Odometer - 180,000 
+  - Last road worthy 04/2025
+  - Registration ended 08/2025   
 **EV Donor:** 2018 Nissan Leaf (ZE1)  
 **Conversion Intent:** Daily road-legal EV, retaining factory safety systems where possible and compliant with NCOP and VicRoads/VASS requirements.
 

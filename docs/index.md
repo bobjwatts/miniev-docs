@@ -7,7 +7,7 @@
 ### Project Details:
 
 - **Base Vehicle:** 2006 Mini Cooper S (R53)
-- **Donor Vehicle:** Nissan Leaf (Gen 2, 2018)
+- **Donor Parts:** Nissan Leaf Motor Stack, Nissan Leaf HV Battery, Nissan Leaf BMS
 - **VCU** ZombieVerter VCU
 - **Planned Budget:** Approximately $12,000 AUD
 - **Projected Timeline:** Approximately 12 months
