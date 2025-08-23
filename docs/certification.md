@@ -50,8 +50,8 @@ All high-voltage (HV) work has been conducted in line with industry-recognised s
 - Proper jacking technique and vehicle support
 
 For detailed procedures, refer to:
-- [Stage 5: Battery Installation](/stage5_battery.md)
-- [Stage 6: Electrical Integration](/stage6_electrical.md)
+- [Stage 5: Battery Installation](build/stage5_battery.md)
+- [Stage 6: Electrical Integration](build/stage6_electrical.md)
 
 ---
 

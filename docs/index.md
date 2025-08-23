@@ -14,11 +14,147 @@
 
 ---
 
+## More Project Decisions.
+📅 24-08-2025
+
+Another weekend, another round of decisions. This project is basically a long chain of “what’s the smartest, least painful way to do this?” moments, and every answer locks in the roadmap a bit further.
+
+Here’s what got settled this time around:
+
+Cooling → I’ll run the Leaf’s coolant pump through the Mini’s radiator loop. Simple, proven, and I don’t have to reinvent the plumbing.
+
+Brakes → the Mini’s vacuum-assisted brakes need a new source of suck. The answer: an electric vacuum pump with a small reservoir, UP28/Leaf style.
+
+Air Conditioning → this one’s still in motion, but the plan is to swap to a compatible electric compressor. There’s some work involved in making the Leaf’s unit happy outside its original home. Keeping the A/C is a must though — creature comforts matter.
+
+Compliance → I pulled together a draft brief for the VACC engineer, mapping out how the build fits within NCOP and Vic regulations. It’s not the glamorous side of the project, but without it the car would never see the road again.
+
+Taken together, these choices mean the car is edging out of “pile of parts” territory and into “actual system.” I can almost picture it: Leaf guts, Mini shell, and everything stitched together neatly. Almost.
+
+---
+
+## 3D Printed Dummy CV Stubs.
+📅 17-08-2025
+
+Sometimes progress comes from the simplest solutions. To keep the gearbox happy and not clanking during testing, I 3D printed dummy CV stubs. They’re not strong enough to handle torque, but perfect for alignment and noise reduction.
+
+Filament: $0.50 Peace of mind: priceless.
+
+---
+
+## First Spin.
+📅 10-08-2025
+
+The moment of truth. after getting everthing properly wired up I powered everything up, nudged the accelerator, and the Leaf motor spun for the first time.
+
+At first, the gearbox made noises like it was being tortured. Turns out running it with no CVs installed is… not great. 
+
+The ZombieVerter and wiring is all working though, so mostly win.
+
+---
+
+## Weighbridge.
+📅 03-08-2025
+
+Took the Mini to the weighbridge for baseline numbers: 760 kg front / 480 kg rear. That’s a lot of nose weight — no surprise for a supercharged front-driver.
+
+These numbers will help with planning the EV layout. The goal is to get closer to a 60/40 split instead of a nose-heavy 65/35. Weight, in particular change in weight (kg & location) are important for VACC certification.
+
+I used [GoWeigh](https://goweigh.com.au/), a 24 hour fully self service weighbridge, great system.
+
+![Mini on the weighbridge](media/mini-weighbridge.png)
+
+---
+
+## Bench Setup.
+📅 27-07-2025
+
+This was the “garage laboratory” weekend. I set up the Leaf motor, inverter, charger, BMS, battery complete with contactors, precharge, and the ZombieVerter running on a bench.
+
+There’s something deeply satisfying about seeing all the parts laid out, cabled together, and powered up. Like Lego, if Lego could electrocute you.
+
+![Nissan Leaf + ZombieVerter Diagram v3](media/bench-setup.png)
+
+---
+
+## Wiring Diagram v2.
+📅 20-07-2025
+
+As always, the first wiring diagram didn’t survive contact with reality. This weekend I refined the schematic into something cleaner and more accurate.
+
+Less spaghetti, more clarity.
+
+---
+
+## Reading the Leaf Battery (BMS) + Connector.
+📅 13-07-2025
+
+First chance to really talk to the Leaf BMS. Using LeafSpy and a borrowed OBD dongle, I confirmed the pack’s health, voltage, and — most importantly — that it really was the 40 kWh pack. Relief!
+
+This was also a chance to understand the connectors and pinouts. The Leaf battery isn’t exactly plug-and-play, so having a working mental map of how the BMS communicates is critical.
+
+Also remixed a leaf 2013+ battery connector, making sure that only the required pins are exposed in the connector. Original [leaf 2013+ battery connector](https://github.com/dalathegreat/Nissan-Leaf-Battery-to-OBD2).
+
+![Leaf battery connector](media/leaf-battery-connector.png)
+
+---
+
+## ZombieVerter Diagram.
+📅 05-07-2025
+
+This weekend was mostly about documentation. I built a wiring diagram for my ZombieVerter setup, making sure all the relays, CAN channels, and safety loops were laid out clearly. I'm still not 100% on the connectors, my leaf stack seems to be 2019, wiring diagrams online don't seem to bethe same year.
+
+Future-me will thank present-me for when I’m elbow-deep in wires.
+
+![Nissan Leaf + ZombieVerter Diagram](media/ZV-Leaf-Diagram.png)
+
+---
+
+## Project Decisionss.
+📅 14-06-2025
+
+This weekend was all about locking in some of the bigger “how” questions. Up until now, the plan for controlling the Leaf stack had been a moving target:
+
+First idea: use a Resolve EV controller. Solid, but pricey.
+
+Then I shifted to the Open Inverter Leaf Board, which was cheaper and had an active community.
+
+After some reading (and some sage advice on the Open Inverter forum), I've realised the current best route is the ZombieVerter VCU — better support, more features, and designed for exactly this kind of swap.
+
+With that settled, a few other decisions clicked into place:
+
+BMS → sticking with the Leaf BMS. Cheaper, simpler, and now supported by ZombieVerter.
+
+Pedal → keeping the Mini’s stock accelerator pedal (dual hall sensors = neat, no bracket needed).
+
+Battery layout → split between engine bay, fuel tank cavity, and boot for balance.
+
+Canbus → This is a big one, I have found out that the Mini shares an almost identical Can to the BMW E46, and the ZombieVerter has that canbus pre-loaded, so my Canbus work is hopefully going to be minimal.
+
+It feels good to have the high-level architecture locked in — fewer “what ifs,” more “let’s get building.”
+
+---
   
 ## A Day at the Wreckers.
 📅 07-06-2025
 
-Today was a good day, hired a ute and trailer to pickup all of the parts from the wreckers.
+This was the day it all became tangible. I hired a ute and trailer, drafted my mum in as my trusty helper, and headed out to the wreckers.
+
+Waiting at the front was a neat pile of parts, but the real treat was being allowed to ride shotgun with the picker into the Leaf graveyard. There, I cherry-picked what I needed:
+
+Pedals (scored with loom attached, jackpot)
+
+Full CV shafts
+
+Gear shifter and wiring
+
+Radiator and fans
+
+And, of course, the main event: the Leaf’s battery pack. Around 200 kg of lithium chemistry, sitting on the ute tray. Getting it off at home was an Olympic event in leverage, and “don’t drop this or it’ll ruin your weekend.”
+
+To add a bit of drama, one of the staff casually said, “Yeah, I think that’s a 24 kWh pack.”, the pack says 24kWh on the official sticker but says 40kWh on the case in marker, will need to read it and find out.
+
+By the end of the day, my garage looked like a DIY EV starter kit exploded across it.
 
 ![ESP & MCP2515](media/wreckers_01.png) 
 ![ESP & MCP2515](media/wreckers_02.png) 
@@ -27,14 +163,7 @@ Today was a good day, hired a ute and trailer to pickup all of the parts from th
 ![ESP & MCP2515](media/wreckers_05.png) 
 ![ESP & MCP2515](media/wreckers_06.png) 
 
-
-
-**Next Steps:**
-- More planning, start designing the wiring diagram
-
-
 ---
-
  
 ## Quick Update – Wrecker Came Through.
 📅 29-05-2025 
@@ -57,25 +186,12 @@ Happy with the outcome, this takes a lot of pressure off the parts hunt. Payment
 
 ---
 
-
 ## Locking In the Drivetrain – Invoice Received and Paid
 📅 28-05-2025  
 
-After weeks of back-and-forth with the wrecker, I finally received the written quote for the Nissan Leaf ZE1 parts I need — and it was better than expected.
+Big milestone: I put my money where my mouth is and officially locked in the Leaf drivetrain. Invoice received, invoice paid.
 
-The total came to $5,500 AUD, which includes:
-
-- The EM57 electric motor
-- Inverter
-- Single-speed gearbox
-- Driveshafts
-- Charger
-- And most importantly, the Gen 2 Leaf battery pack
-
-This bundle covers nearly everything I need for the heart of the conversion. It wasn’t itemised, but the description matched what we discussed — and at this price, I’m not going to make a fuss over whether the gear selector or pedal is included. I can pick up those extras separately if needed.
-
-**Next Steps:**
-- Organise pickup and start prepping for a bench test of the Leaf components before pulling the Mini apart.
+There’s no going back now. Soon, a Leaf motor, inverter, charger, and battery pack will be mine. This is the point in the story where the sensible part of your brain starts whispering “you could’ve just bought a second-hand i3, you know” — but honestly, where’s the fun in that?
 
 ---
 
@@ -83,88 +199,43 @@ This bundle covers nearly everything I need for the heart of the conversion. It 
 ## Logging CAN bus data from Mini
 📅 17-05-2025
 
-I spent Friday night and Saturday morning attempting to get setup to log the can data from the Mini. I set out to use an ESP32 dev board with an MCP2515 CAN module to interface with SavvyCAN via the GVRET protocol.
+If you want to make a modern car accept a heart transplant, you need to speak its language: CAN bus. This weekend was all about tapping into the Mini’s network and logging data.
 
-What I Tried:
+Armed with an ESP32, some open-source wizardry, and a healthy amount of trial and error, I finally started seeing live messages scroll across my laptop. Most of them made zero sense at first glance, but the point is: the Mini talks, and now I can listen.
 
-- Started with an ESP32-WROOM DevKit board (with CP2102 USB-to-Serial)
-- Connected the MCP2515 via SPI (CS=GPIO5, INT=GPIO4, SCK/MISO/MOSI=18/19/23)
-- Flashed the ESP32RET firmware using PlatformIO and Arduino IDE
-- Attempted to connect using SavvyCAN’s GVRET Serial mode at 115200 and 1000000 baud
-- Saw serial output and CAN initialization logs, but SavvyCAN failed handshake consistently
+This data will be help later, when I need to spoof BMW/Mini messages so the dash, ABS, and other systems still play nicely. Baby steps, but an important one.
 
-What I Learned:
-
-- CP2102-based ESP32 boards do not reliably support 1M baud, causing GVRET Serial to become garbled and fail
-- ESP32RET and SavvyCAN expect a clean GVRET binary stream — any noise (e.g., ELM emulator or debug prints) causes the handshake to fail
-
- 
-![ESP & MCP2515](media/espcan.jpg) 
-
-**Next Steps:**
-- I’ve ordered a few ESP32 boards with CH340 USB chips, which support 1,000,000 baud for GVRET serial communication with SavvyCAN. Once they arrive, I’ll resume testing with the precombiled ESPRET bin.
 ---
-
-
  
 ## Mini driving and light repairs  
 📅 03-05-2025 
 
-The Mini truly is a joy to drive. Its cornering capabilities are fantastic. Even if I never get around to completing the EV conversion, I'll still be happy with the car. However, I'm looking forward to the instant torque. Based on current projections using the Mini specs combined with the Leaf motor and battery setup, the car might achieve 0–100 km/h in ~5ish seconds!
+With the Mini still roadworthy, I've been using it as my daily driver — it's such a fun car to drive.
 
-So far, I've tackled several small repairs and improvements:
+Of course, being a nearly 20-year-old Mini, it had quirks. A steering fluid leak here, a battery tantrum there. Nothing catastrophic, but enough to make me feel like I hadn’t bought the world’s cleanest example after all. Still, these issues will literally get thrown out with the petrol drivetrain, so I'm not losing much sleep.
 
-- Fluid leak: Initially alarming, the fluid under the car turned out to be power steering fluid. Thankfully, it was an easy fix—one of the hoses just wasn't properly tightened. Considering I'll retain the power steering, I'll likely replace the old hardened hoses for peace of mind.
-- Stereo issue: The audio system was annoyingly only playing through one side of the car. I learned how to remove the stereo (a bit tricky!) and discovered some bad wiring behind the aftermarket Pioneer unit. I resolved the wiring issue but will probably upgrade to a double DIN Android head unit soon.
-- Door latch: The driver's side door wasn’t closing properly, but a quick adjustment of the latch mechanism sorted that out.
-- Bonnet scoop: I found the bonnet scoop attached rather poorly with some dodgy silicone work. I cleaned everything up and 3D printed new clips to secure it correctly.
-- Given that it's a 19-year-old vehicle, I expect to tackle more issues along the way, but that's all part of the fun.
-
-**Next Steps:**
-- Log CAN bus data from stock Mini
+One last hurrah for the ICE setup before the surgery begins.
 
 ---
 
 ## Finding Nissan EV Parts from a Wrecker
 📅 26-04-2025 
 
-The next step is sourcing the Nissan Leaf components. I have found several wrecked Nissan Leafs online at local wreckers. I called a wrecker specializing in Nissan vehicles—they had three Nissan Leaf Gen 2s listed on their website.
+Rule number one of an EV swap: you need EV bits. Preferably ones that don’t cost more than the car itself. So I started hunting Nissan Leaf wrecks on Marketplace, calling wreckers, and trawling forums.
 
-The first phone conversation was encouraging. The guy I spoke with was incredibly friendly and knowledgeable, having previously sold a few DIY EV kits. To my surprise, the quoted price was very reasonable—AUD 5,500 for a complete Gen 2 drivetrain and battery.
+I've found a Gen 2 Leaf drivetrain — motor, inverter, charger, and battery pack. Bonus: the wreckers had enough ancillary parts (coolant pump, pedals, wiring stubs) that I wouldn’t be starting from scratch with a spaghetti of connectors.
 
-I decided to visit the wrecker in person to discuss further and inspect the vehicles. The yard was in full swing, diggers moved wrecks around, workers were busy everywhere. My initial encounter at the front desk was less welcoming, greeted by a rather surly employee who seemed disinterested in me as a whole. However, after some friendly questions, I managed to win him over. He eventually shared details on the purchase process and logistics but drew the line when I asked to see the actual vehicle. "It's a car—what are you going to see?", making it clear he wouldn’t budge.
-
-Feeling optimistic.
-
-**Next Steps:**
-- Lock down a quote and pickup date with the wreckers
+The plan was now solid: Leaf power in a Mini body.
 
 ---
-
 
 ## First Update! EV Conversion Origin Story and Vehicle Acquisition  
 📅 20-04-2025 
 
-I've been loving watching classic EV conversions on YouTube for a few years now, often thinking, "Maybe when I retire." This hesitation was mostly due to my perceived high cost of buying a classic car as a donor and acquiring EV components—options seemed limited to expensive Tesla setups or Hyper 9 motors.
+Every harebrained project needs an origin story, so here’s mine: I decided to take a perfectly good 2006 Mini Cooper S R53 and replace its screaming supercharged petrol engine with a Nissan Leaf drivetrain. Why? Because EVs are fun, Minis are fun, and smashing the two together sounds like the kind of problem-solving chaos I live for.
 
-Then one day, a video of an EV conversion using a Nissan Leaf appeared in my feed. I'd never seriously considered the Leaf before, as I found its design pretty uninspiring, and I'd assumed its EV components were low-end. However, watching the video, I saw just how straightforward the conversion process was, particularly with the Resolve EV controller that appeared quite plug-and-play. I started looking into them, discovering they weren't nearly as bad as I'd expected.
+I spent some time weighing up options — old Golfs, other donor cars, even five-door “sensible” choices to keep the family happy. But in the end, the Mini won out. It’s compact, characterful, has 8 airbags, and exactly the sort of car that deserves a new lease on life.
 
-I checked the prices on the marketplace and found Leafs surprisingly affordable—around AUD 16,000 for a decent-looking secondhand 2016 model. I wondered if we could simply use a second-hand Leaf as our family's first EV. But the allure of a classic conversion was strong.
-
-Exploring further, I discovered enthusiasts successfully converting vehicles like the Mk1 VW Golf with Leaf components. This was promising, but when I discussed it with my wife, she was concerned about the safety of using older classics as a daily driver. So, I shifted focus toward more modern compact cars.
-
-I thought about a few possible cars, but landed on first-generation BMW Mini. Eight airbags and four-star ANCAP safety rating, it combines safety with a sporty, classic feel, and measures 550mm from CV joint to bonnet – should fit the Leaf motor. I’d always loved the original classic Mini but had initially overlooked the refresh. After binge-watching countless reviews on YouTube, I liked its blend of performance and charm.
-
-Ultimately, the decision was made—I’d get myself a 2004–2006 Mini Cooper S (The S has upgraded brakes and suspension), and embark on converting it to electric using Nissan Leaf parts. And just like that, my EV conversion journey began. Planning has been nightly. 
-
-So after watching the market for a while I found one that suited, clean condition, VIN check confirmed good-ish history.
-
-**The Mini:**  
-- ![The Mini](media/mini.jpg) 
-
-**Next Steps:**
-- Search for Leaf Parts
-
----
+So here we are: project launched, car purchased, and my weekends booked out for the foreseeable future.
 
 
