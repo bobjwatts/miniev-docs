@@ -60,6 +60,31 @@
 
 ---
 
+## Power & Torque Comparison
+
+| Spec                        | Stock Mini Cooper S (R53) | Converted EV (Leaf EM57) |
+|-----------------------------|---------------------------|---------------------------|
+| Peak Power (kW)            | 125 kW @ 6,000 rpm        | ~110–120 kW (peak)        |
+| Continuous Power (kW)      | ~80–90 kW                 | ~80 kW (ZombieVerter-limited) |
+| Peak Torque (Nm)           | 220 Nm @ 4,000 rpm        | ~320 Nm (instantaneous)   |
+| Acceleration (Est.)        | ~7.2 sec 0–100 km/h       | ~6.5–7.0 sec (est.)        |
+| Transmission               | 6-speed manual (original) | Single-speed reduction     |
+
+> The EV conversion retains or improves torque delivery while maintaining similar peak power, optimized for urban driveability and smoother acceleration.
+
+---
+
+## Weight Distribution (Before & After Conversion)
+
+| Configuration              | Front Weight (kg) | Rear Weight (kg) | Total Weight (kg) |
+|----------------------------|-------------------|------------------|-------------------|
+| ICE (Pre-conversion)           | 760 kg            | 480 kg           | 1,240 kg          |
+| EV (Estimated Post-Conversion) | 700–720 kg       | 620–640 kg        | ~1,340–1,360 kg    |
+
+> Approx. +100–120 kg added overall. Battery pack split between front and rear to rebalance weight. Maintains GVM compliance (Mini’s GVM ~1,500 kg) and improves rear traction.
+
+---
+
 
 ## Project Breakdown
 
